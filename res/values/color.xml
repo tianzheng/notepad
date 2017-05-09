@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="EditText_bg_color">#DEE3DE</color>
+    <color name="Transparent_Background">#00000000</color>
+    <color name="Color_Black">#000000</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的记事本</string>
+<!--     <string name="menu_insert">Add Note</string> -->
+    <string name="menu_delete">删除信息</string>
+    <string name="menu_export">输出</string>
+    <string name="menu_import">输入</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_version">版本:</string>
+    <string name="title">标题</string>
+    <string name="body">内容</string>
+    <string name="confirm">保存</string>
+    <string name="edit_note">编辑笔记</string>
+    <string name="empty_message">请按"新增笔记"新增笔记页并填写资料</string>
+    <string name="input_error">请输入标题</string>
+    <string name="delete_confirm">请确认是否要删除这个档案?</string>
+    <string name="delete">删除</string>
+    <string name="save_confirm">本页内容将会消失，是否要保存现有内容？</string>
+    <string name="save">保存</string>
+    <string name="no_save">不保存</string>
+    <string name="enter_filename">请输入档案名称</string>
+    <string name="confirmation">确认</string>
+    <string name="cancel">取消</string>
+    <string name="file_already_exist_reminder">此档案已存在，请重新储存</string>
+    <string name="file_save_location">请选择储存位置</string>
+    <string name="internal_storage">内部记忆卡</string>
+    <string name="note">通知</string>
+    <string name="file_missing">没有档案</string>
+    <string name="open_file_select">请选择开启档案</string>
+    
+      <string name="text_title">档案名称：</string>
+           <string name="checkbox_title">是否要保存在SDCard</string>
+</resources>

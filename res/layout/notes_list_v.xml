@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note_bg_new"
+    android:orientation="vertical" >
+
+
+      <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" >
+
+        <ImageView
+            android:id="@+id/notecreate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/note_btn_create" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+            android:layout_marginTop="20dp"
+        android:layout_above="@id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/note_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+           />
+
+        
+    </LinearLayout>
+
+  <TextView
+            android:id="@+id/empty_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/empty_message"
+            android:textColor="@color/Color_Black"
+            android:textSize="30sp" />
+
+</RelativeLayout>
